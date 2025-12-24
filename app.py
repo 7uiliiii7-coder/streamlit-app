@@ -23,7 +23,7 @@ if not st.session_state.user_profile:
             "goal": goal
         }
         st.success("健康档案已保存！")
-        st.experimental_rerun()
+        st.rerun()
 else:
     st.success("欢迎回来！你可以开始饮食记录啦 🍽️")
     st.info("（这是可运行示例，后续可继续扩展功能）")
